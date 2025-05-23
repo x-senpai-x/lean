@@ -34,6 +34,8 @@ def b1: Bool :=
 
 #check (m,n)
 
+def pi :=
+  3.141592654
 
 -- definined contants for types
 def α : Type :=
@@ -97,4 +99,4 @@ def const {α β : Type v} (x:α)(y:β) : α :=
   x
 #eval const 5 true
 #eval const 5 6
-#eval const 5 (6, 7) 
+#eval const 5 (6, 7)
