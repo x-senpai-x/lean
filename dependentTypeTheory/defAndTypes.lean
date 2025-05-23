@@ -97,4 +97,4 @@ def const {α β : Type v} (x:α)(y:β) : α :=
   x
 #eval const 5 true
 #eval const 5 6
-#eval const 5 (6, 7) -- 5
+#eval const 5 (6, 7) 
