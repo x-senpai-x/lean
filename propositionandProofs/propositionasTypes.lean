@@ -35,9 +35,9 @@
 -- You don't write:
 
 
-Proof (p → q)
+-- Proof (p → q)
 -- Instead, you just write:
-p → q
+-- p → q
 -- And if you want to prove it, you construct a function:
 def mp (p q : Prop) (h₁ : p → q) (h₂ : p) : q := h₁ h₂
 -- That is a proof of proposition q
