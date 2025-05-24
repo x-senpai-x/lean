@@ -117,4 +117,8 @@ variable (A B C : Type)
 def compose (f : B → C) (g : A → B) : A → C :=
   fun x : A => f (g x)
 
- 
+
+ --Curry-Howard Isomophism
+-- Proofs are programs, and propositions are types.
+variable (p : Prop)
+#check p

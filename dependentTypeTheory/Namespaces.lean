@@ -28,7 +28,6 @@ namespace Foo
 
   namespace Bar
     def ffa : Nat := f (f a)
-
     #check fa
     #check ffa
   end Bar
